@@ -1,0 +1,17 @@
+#installing packages
+install.packages("")
+
+#installing package
+remove.packages("package_name")
+
+#load packaged
+library("package_name")
+
+#unloading package
+detach("package:package_name",unload=TRUE)
+
+#reading mtcars
+>mtcars
+
+#summarise mtcars
+summary(mtcars)            
